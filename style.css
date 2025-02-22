@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+input{
+    width: 381px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 19px;
+    padding-left: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    border: 2px solid rgba(42, 42, 42, 1);
+}
+button{
+    width: 112px;
+    height:51px;
+    border-radius: 15px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+.first_conditation{
+    gap: 50px;
+    display: flex;
+   margin-left: 150px;
+   margin-top: 80px;
+}
+.father{
+    width: 550px;
+    height: 134px;
+    border:2px solid rgba(42, 42, 42, 1);
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgba(42, 42, 42, 1);
+    border-radius: 15px;
+    gap: 70px;
+    padding-left: 50px;
+
+}
+.father p{
+    padding-top: 50px;
+    font-size: 25px;
+    color: white;
+}
+h2{
+    /* margin-top: 50px;
+    margin-left: 150px; */
+    font-size: 30px;
+    color: white;
+}
+.mother{
+    display: flex;
+    gap: 340px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.color-picker{
+    width: 50px;
+    height: 20px;
+}
